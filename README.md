@@ -1,6 +1,7 @@
 This Jupyter notebook code written in python allows users to process and fit biolayer interferometry (BLI) binding kinetics data. 
 This code was developed by Benjamin Stordy and Zahra Sepahi in the Chan lab at the Unversity of Toronto. 
 This project is licensed under the terms of GPLv3. 
+This codebase was used to perform the BLI data processing and fitting for "The Binding Affinities of Serum Proteins to Nanoparticles", published in JACS in 2025 (https://doi.org/10.1021/jacs.5c02576).
 
 To use this code, first run the BLI_processing script to clean and prepare BLI data for fitting. Then, run the BLI_fitting code to extract binding constants from the data. 
 Output files (.pdf files containing plots of the data and fitted curves, .txt and .xlsx files containing the fitting results) will be saved into the same folder as the data.
